@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0;
+    
+    
+}
+.navi{
+    width: 100%;
+    height: 70px;
+    display: flex;
+   background-color: rgb(9, 2, 2);*/
+    text-align: center;
+    border: 1px solid black;
+    position:fixed ;
+ 
+    
+}
+.title{
+ margin-left: 5%;
+ color: aliceblue;
+ text-align: center;
+ margin-top: 25px;
+}
+.title:hover{
+    color: blue;
+}
+.main{
+    margin-top: 15px;
+   
+    margin-left: 50%;
+}
+
+
+    .books{
+        color: aliceblue;
+        text-decoration: none;
+        padding-right: 15px;
+margin-top: 25px;
+       
+    }
+    .books:hover{
+        color: blue;
+    }
+    .reg{
+        color: aliceblue;
+        text-decoration: none;
+        padding-right: 15px;
+        margin-top: 25px;
+        
+    }
+    .reg:hover{
+        color: blue;
+    }
+    .cont{
+        color: aliceblue;
+        text-decoration: none;
+        padding-right: 15px;
+        margin-top: 25px;
+    }
+    .cont:hover{
+        color: blue;
+    }
+    .logout{
+        color: aliceblue;
+        text-decoration: none;
+        padding-right: 15px;
+        margin-top: 25px;
+     
+    }
+    .logout:hover{
+        color: blue;
+
+    }
+    .main-body{
+        
+        justify-content: space-evenly;
+    }
+     
+    main{
+        display: flex;
+        flex-direction: column;
+    background-color: rgba (241, 239, 241, 1);
+    align-items: center;
+    justify-content: space-evenly;
+       
+    height: 150vh;
+    
+    }
+    .body{
+        width: 70%;
+        height: 600px;
+        flex-direction: column;
+        box-shadow: 0 8px 16px black;
+        
+    }
+    .tables{
+        width: auto;
+        height: auto;
+    }
+    #heading{
+        padding-left: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    table  ,th ,td{
+        border: 0.5px solid black;
+        border-collapse: collapse;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    .table1{
+        padding-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+    }
+    footer{
+        display: flex;
+    
+    background-color: rgba (241, 239, 241, 1);
+    align-items: center;
+    justify-content: space-evenly;
+       height: 100vh;
+     margin-bottom: 20px;
+     flex-direction: column;
+    }
+
+    .footer{
+        
+         width: 70%;
+        height: 800px;
+        
+        box-shadow: 0 8px 16px black;
+       
+    }
+    #register{
+        padding-top: 30px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    .names{
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-top: 15px;
+        
+    }
+   
+    #name{
+        margin-left:15px ;
+        justify-content: space-evenly;
+        width: 90%;
+         height: 30px;
+         outline: 0;
+        
+    }
+    #name:hover{
+        border: 2px solid blue;
+        background-color: rgb(166, 202, 252);
+    }
+    .button{
+        width: 90%;
+        height: 30px;
+        margin-left:15px ;
+        margin-top: 15px;
+        outline: 0;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    
